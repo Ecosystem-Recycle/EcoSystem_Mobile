@@ -13,6 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "EcoSystem"
+rootProject.name = "EcoSystem_Mobile"
 include(":app")
- 

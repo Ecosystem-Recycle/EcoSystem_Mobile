@@ -1,4 +1,4 @@
-package com.example.ecosystem
+package com.example.ecosystem_mobile
 
 import org.junit.Test
 
