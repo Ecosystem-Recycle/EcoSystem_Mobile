@@ -7,7 +7,8 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_login">Sair</string>
+    <string name="menu_editar_perfil">Editar Perfil</string>
+    <string name="menu_institucional">Institucional</string>
+    <string name="menu_nossa_historia">Nossa História</string>
 </resources>
