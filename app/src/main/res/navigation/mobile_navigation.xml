@@ -5,15 +5,20 @@
             android:id="@+id/mobile_navigation"
             app:startDestination="@+id/nav_home">
 
+    <fragment android:id="@+id/nav_editar_perfil"
+              android:name="com.example.ecosystem_mobile.views.EditarPerfilFragment"
+              android:label="@string/menu_editar_perfil"
+              tools:layout="@layout/fragment_editar_perfil"/>
+
+    <fragment
+            android:id="@+id/nav_institucional"
+            android:name="com.example.ecosystem_mobile.views.InstitucionalFragment"
+            android:label="@string/menu_institucional"
+            tools:layout="@layout/fragment_institucional"/>
+
     <fragment
             android:id="@+id/nav_nossa_historia"
             android:name="com.example.ecosystem_mobile.views.NossaHistoriaFragment"
             android:label="@string/menu_nossa_historia"
             tools:layout="@layout/fragment_nossa_historia"/>
-
-    <fragment
-            android:id="@+id/nav_institucional"
-            android:name="com.example.ecosystem_mobile.views."
-            android:label="@string/menu_institucional"
-            tools:layout="@layout/fragment_institucional"/>
 </navigation>
