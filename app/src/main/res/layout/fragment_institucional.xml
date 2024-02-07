@@ -5,19 +5,83 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".views.EditarPerfilFragment">
+        tools:context=".views.InstitucionalFragment"
+        android:background="@color/cinza"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+>
 
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textAlignment="center"
+              android:textSize="30dp"
+              android:text="Institucional"
+              android:textColor="@color/verde_musgo"
+              android:fontFamily="@font/Poppins"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+              android:id="@+id/textInstitucional"/>
+    <ImageView
+            android:layout_width="148dp"
+            android:layout_height="104dp"
+            app:srcCompat="@drawable/InstitucionalLixo"
+            android:id="@+id/imageView2"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInstitucional" android:layout_marginTop="10dp"/>
     <TextView
-            android:id="@+id/text_gallery"
-            android:layout_width="match_parent"
+            android:text="ESG"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
+            android:id="@+id/textEsg"
             android:textAlignment="center"
-            android:textSize="20sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" android:layout_marginTop="15dp"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Por que a sigla se tornou prioridade para empresas? De empresas a startups, o ESG fez a responsabilidade ambiental, social e de governança se tornar prioridade. Por que o ESG teve tanto poder para gerar mudança? Unir e criar uma sigla não foram os únicos motivos que impactaram a adoção dos princípios em empresas de diversos tamanhos e segmentos. O impulso para a preocupação com o ESG aconteceu de dois lados: os consumidores passaram a consumir mais das empresas que se preocupam com as práticas e os investidores passaram a priorizar – e pagar mais – por ações de empresas que praticam o ESG."
+              android:fontFamily="@font/Inter"
+              android:textSize="15dp"
+              android:textColor="@color/black"
+              app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/textEsg"
+              android:layout_marginTop="10dp" android:id="@+id/textView3"/>
+
+    <ImageView android:layout_width="148dp"
+               android:layout_height="104dp"
+               android:src="@drawable/InstitucionalSimbolRec"
+               android:id="@+id/imageView3"
+               android:layout_marginTop="10dp"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintTop_toBottomOf="@+id/textView3"/>
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/textEcoCircular"
+              android:textAlignment="center"
+              android:textSize="15dp"
+              android:textColor="@color/black"
+              android:textStyle="bold"
+              android:text="Economia Circular"
+              android:layout_marginTop="15dp"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/imageView3"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:id="@+id/textView4"
+              android:text="Economia circular é um conceito que associa desenvolvimento econômico a um melhor uso de recursos naturais, por meio de novos modelos de negócios e da otimização nos processos de fabricação com menor dependência de matéria-prima virgem, priorizando insumos mais duráveis, recicláveis e renováveis."
+              android:fontFamily="@font/Inter"
+              android:textSize="15dp"
+              android:textColor="@color/black"
+              android:layout_marginTop="10dp"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/textEcoCircular"/>
+
+    <ImageView android:layout_width="148dp" android:layout_height="104dp"
+               android:src="@drawable/cicloLogistico" tools:layout_editor_absoluteY="679dp"
+               tools:layout_editor_absoluteX="104dp"/>
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

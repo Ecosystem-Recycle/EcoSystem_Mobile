@@ -34,7 +34,6 @@
             android:textColorHint="@color/black"
             android:background="@drawable/style_card"
             android:paddingStart="10dp"
-
             android:id="@+id/campo_email"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/titulo_email"/>
