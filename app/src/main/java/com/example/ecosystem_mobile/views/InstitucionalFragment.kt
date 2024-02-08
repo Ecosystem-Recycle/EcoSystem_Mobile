@@ -5,12 +5,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.ecosystem_mobile.databinding.FragmentEditarPerfilBinding
 import com.example.ecosystem_mobile.databinding.FragmentInstitucionalBinding
 
 class InstitucionalFragment : Fragment() {
 
-private var _binding: FragmentInstitucionalBinding? = null
+    private var _binding: FragmentInstitucionalBinding? = null
 
     private val binding get() = _binding!!
 

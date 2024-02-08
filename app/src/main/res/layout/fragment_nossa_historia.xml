@@ -5,19 +5,112 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".views.InstitucionalFragment">
+        tools:context=".views.NossaHistoriaFragment"
+        android:background="@color/cinza"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+>
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textAlignment="center"
+              android:text="Nossa História"
+              android:textColor="@color/verde_musgo"
+              android:fontFamily="@font/Poppins"
+              android:textSize="30dp"
+              app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintTop_toTopOf="parent" android:id="@+id/textTituloNossaHistoria"
+    />
 
+    <ImageView android:layout_width="148dp"
+               android:layout_height="104dp"
+               android:src="@draw"
+               android:id="@+id/imageViewGrupo"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintTop_toBottomOf="@+id/textTituloNossaHistoria"
+               android:layout_marginTop="10dp"
+
+    />
     <TextView
-            android:id="@+id/text_home"
-            android:layout_width="match_parent"
+            android:text="Um pouco sobre nós."
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
+            android:id="@+id/textTexto1"
             android:textAlignment="center"
-            android:textSize="20sp"
-            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="15dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewGrupo"
+    />
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Com as dificuldades ambientais que estamos enfrentando com efeito estufa e outros fenômenos da natureza a empresa Volksvagem compreendeu a necessidade urgente de criar soluções para resolver parte do vilão que contribuem para estes problemas e desenvolver no tocante social e econômico. Com a convicção de poder acelerar a mudança de cenário reuniu parceiros e doadores para com objetivos de desenvolvimento sustentável. Dessa forma Eco System & Recycle nasceu da necessidade por soluções que acelerem iniciativas de forma rápida e orgânica tornando se empresa de impacto socio ambiental."
+              android:fontFamily="@font/Inter"
+              android:textSize="15dp"
+              android:textColor="@color/black"
+              android:layout_marginTop="10dp"
+              app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintHorizontal_bias="0.6" app:layout_constraintTop_toBottomOf="@+id/textTexto1"
+              android:id="@+id/textView5"/>
+    <TextView
+            android:text="Missão"
+            android:layout_width="48dp"
+            android:layout_height="15dp"
+            android:id="@+id/textMissao"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteY="460dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="15dp"/>
+    <TextView
+            android:text="Visão"
+            android:layout_width="44dp"
+            android:layout_height="15dp"
+            android:id="@+id/textVisao"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteY="460dp" app:layout_constraintStart_toEndOf="@+id/textMissao"
+            app:layout_constraintEnd_toStartOf="@+id/textValores"/>
+    <TextView
+            android:text="Valores"
+            android:layout_width="50dp"
+            android:layout_height="15dp"
+            android:id="@+id/textValores"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteY="460dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginRight="15dp"/>
+    <ImageView
+            android:layout_width="71dp"
+            android:layout_height="67dp" android:id="@+id/imageViewMissao"
+            android:src="@dr"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="3dp" app:layout_constraintTop_toBottomOf="@+id/textMissao"
+            android:layout_marginTop="15dp"/>
+    <ImageView
+            android:layout_width="71dp"
+            android:layout_height="67dp" tools:src="@tools:sample/avatars" android:id="@+id/imageViewVisao"
+            app:layout_constraintStart_toEndOf="@+id/imageViewMissao"
+            app:layout_constraintEnd_toStartOf="@+id/imageViewValores"
+            app:layout_constraintTop_toBottomOf="@+id/textVisao" android:layout_marginTop="15dp"/>
+    <ImageView
+            android:layout_width="71dp"
+            android:layout_height="67dp" tools:src="@tools:sample/avatars" android:id="@+id/imageViewValores"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginRight="3dp" app:layout_constraintTop_toBottomOf="@+id/textValores"
+            android:layout_marginTop="15dp"/>
+    <TextView
+            android:text="Investimentos industriais e financeiros, trazendo a sustentabilidade financeira e o impacto positivo ao meio ambiente para sociedade através da tecnologia."
+            android:layout_width="84dp"
+            android:textSize="10dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/Inter"
+            android:textAlignment="center"
+            android:layout_height="132dp" android:id="@+id/textView6" tools:layout_editor_absoluteY="571dp"
+            tools:layout_editor_absoluteX="-1dp"/>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

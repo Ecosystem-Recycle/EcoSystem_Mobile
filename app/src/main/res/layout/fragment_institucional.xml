@@ -25,7 +25,7 @@
             android:layout_width="148dp"
             android:layout_height="104dp"
             app:srcCompat="@drawable/InstitucionalLixo"
-            android:id="@+id/imageView2"
+            android:id="@+id/imageViewLixo"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textInstitucional" android:layout_marginTop="10dp"/>
     <TextView
@@ -38,7 +38,7 @@
             android:textColor="@color/black"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2" android:layout_marginTop="15dp"/>
+            app:layout_constraintTop_toBottomOf="@+id/imageViewLixo" android:layout_marginTop="15dp"/>
 
     <TextView android:layout_width="wrap_content"
               android:layout_height="wrap_content"
@@ -52,7 +52,7 @@
     <ImageView android:layout_width="148dp"
                android:layout_height="104dp"
                android:src="@drawable/InstitucionalSimbolRec"
-               android:id="@+id/imageView3"
+               android:id="@+id/imageViewReciclagem"
                android:layout_marginTop="10dp"
                app:layout_constraintStart_toStartOf="parent"
                app:layout_constraintEnd_toEndOf="parent"
@@ -67,7 +67,7 @@
               android:text="Economia Circular"
               android:layout_marginTop="15dp"
               app:layout_constraintEnd_toEndOf="parent"
-              app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/imageView3"/>
+              app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/imageViewReciclagem"/>
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
               android:id="@+id/textView4"
               android:text="Economia circular é um conceito que associa desenvolvimento econômico a um melhor uso de recursos naturais, por meio de novos modelos de negócios e da otimização nos processos de fabricação com menor dependência de matéria-prima virgem, priorizando insumos mais duráveis, recicláveis e renováveis."
@@ -79,8 +79,8 @@
               app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/textEcoCircular"/>
 
     <ImageView android:layout_width="148dp" android:layout_height="104dp"
-               android:src="@drawable/cicloLogistico" tools:layout_editor_absoluteY="679dp"
-               tools:layout_editor_absoluteX="104dp"/>
+               android:src="@drawable/cicloLogistico" tools:layout_editor_absoluteY="678dp"
+               tools:layout_editor_absoluteX="119dp"/>
 
 
 
